@@ -1,0 +1,104 @@
+*{
+    font-family: calibri;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+    
+}
+div.container{
+    background: rgb(250,255,250);
+}
+body{
+    
+    width: 90%;
+    margin: 10px auto;
+    border: 1px ;
+    box-shadow: 1px 5px 100px silver;
+}
+
+img.displayed{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1{
+    font-size: 50px;
+    /*text-align: center;*/
+}
+legend{
+    visibility: hidden;
+    color: green;
+    box-shadow: 1px 1px 10px green;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid grey;
+    border-radius: 5px;
+    font-size: x-large;
+}
+figcaption{
+    text-align: center;
+}
+code{
+    font-family:monospace;
+}
+div, p{
+    font-size: normal;
+}
+button{
+    background: #66CD00;
+    border: 1px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: yellow;
+}
+
+button:hover{
+    box-shadow: 1px 1px 10px green;
+    color: white;
+    background: #458B00;
+}
+
+.para{
+    text-align: center;
+    width = 80%;
+    color: white;
+    height = 25px;
+    border-radius: 25px; 
+    padding: 3px;
+    background: #458B00;
+    margin: 10px auto;
+}
+
+fieldset{
+    border: none;
+    box-shadow: 0px 0px 10px green;
+}
+
+td{
+    width: 600px;
+}
+
+img.author{
+    border-radius: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+img.author1{
+    width:100px;
+    height: 100px;
+}
+
+tr{
+    display: block;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px green;
+}
+
+p.q{
+    color: green;
+    font-weight: bold;
+    font-size: 1.3em;
+}
